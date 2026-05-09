@@ -1,0 +1,24 @@
+{
+  "name": "Al-Anwar",
+  "short_name": "Al-Anwar",
+  "description": "Une application minimaliste pour les horaires de prière et la direction de la Qibla.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/nour-192/192/192",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://picsum.photos/seed/nour-512/512/512",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Al-Anwar",
+  "description": "Une application élégante et précise pour consulter les heures de prière en fonction de votre ville avec une interface mobile-first raffinée.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["PWA support", "Prayer Times Calculation"]
+}

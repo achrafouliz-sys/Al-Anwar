@@ -1,0 +1,21 @@
+{
+	"appId": "com.alanwar.app",
+	"appName": "Al-Anwar",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 3000,
+			"launchAutoHide": true,
+			"backgroundColor": "#050505",
+			"androidSplashResourceName": "splash",
+			"androidScaleType": "CENTER_CROP",
+			"showSpinner": true,
+			"androidSpinnerStyle": "large",
+			"iosSpinnerStyle": "small",
+			"spinnerColor": "#E5C158",
+			"splashFullScreen": true,
+			"splashImmersive": true
+		}
+	}
+}

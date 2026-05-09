@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Al-Anwar - Heures de Prière</title>
+    
+    <!-- PWA Social & Discovery -->
+    <meta name="description" content="Une application minimaliste pour les horaires de prière et la direction de la Qibla." />
+    <meta name="theme-color" content="#050505" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- iOS support -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Al-Anwar" />
+    <link rel="apple-touch-icon" href="https://picsum.photos/seed/nour-192/192/192" />
+    
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('Service Worker registered:', reg))
+            .catch(err => console.log('Service Worker registration failed:', err));
+        });
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-BO_mgKu4.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-_rAGR3R7.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
