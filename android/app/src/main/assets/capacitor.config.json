@@ -2,7 +2,6 @@
 	"appId": "com.alanwar.app",
 	"appName": "Al-Anwar",
 	"webDir": "dist",
-	"bundledWebRuntime": false,
 	"plugins": {
 		"SplashScreen": {
 			"launchShowDuration": 3000,
